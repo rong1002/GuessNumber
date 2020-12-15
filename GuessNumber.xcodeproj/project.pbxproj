@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9137A586256E7D3A0027A54C /* GuessNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9137A585256E7D3A0027A54C /* GuessNumber.swift */; };
 		916B94CC256D06D700FBA5F0 /* GuessNumberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916B94CB256D06D700FBA5F0 /* GuessNumberApp.swift */; };
 		916B94CE256D06D700FBA5F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916B94CD256D06D700FBA5F0 /* ContentView.swift */; };
 		916B94D0256D06D900FBA5F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916B94CF256D06D900FBA5F0 /* Assets.xcassets */; };
 		916B94D3256D06D900FBA5F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916B94D2256D06D900FBA5F0 /* Preview Assets.xcassets */; };
 		916B94DE256D06D900FBA5F0 /* GuessNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916B94DD256D06D900FBA5F0 /* GuessNumberTests.swift */; };
 		916B94E9256D06D900FBA5F0 /* GuessNumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916B94E8256D06D900FBA5F0 /* GuessNumberUITests.swift */; };
+		91BA041F2584E54400B0155A /* Guess1A2B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BA041E2584E54400B0155A /* Guess1A2B.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9137A585256E7D3A0027A54C /* GuessNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumber.swift; sourceTree = "<group>"; };
 		916B94C8256D06D700FBA5F0 /* GuessNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		916B94CB256D06D700FBA5F0 /* GuessNumberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberApp.swift; sourceTree = "<group>"; };
 		916B94CD256D06D700FBA5F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 		916B94E4256D06D900FBA5F0 /* GuessNumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessNumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		916B94E8256D06D900FBA5F0 /* GuessNumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberUITests.swift; sourceTree = "<group>"; };
 		916B94EA256D06D900FBA5F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91BA041E2584E54400B0155A /* Guess1A2B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess1A2B.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				916B94CB256D06D700FBA5F0 /* GuessNumberApp.swift */,
+				9137A585256E7D3A0027A54C /* GuessNumber.swift */,
 				916B94CD256D06D700FBA5F0 /* ContentView.swift */,
+				91BA041E2584E54400B0155A /* Guess1A2B.swift */,
 				916B94CF256D06D900FBA5F0 /* Assets.xcassets */,
 				916B94D4256D06D900FBA5F0 /* Info.plist */,
 				916B94D1256D06D900FBA5F0 /* Preview Content */,
@@ -261,6 +267,8 @@
 			files = (
 				916B94CE256D06D700FBA5F0 /* ContentView.swift in Sources */,
 				916B94CC256D06D700FBA5F0 /* GuessNumberApp.swift in Sources */,
+				91BA041F2584E54400B0155A /* Guess1A2B.swift in Sources */,
+				9137A586256E7D3A0027A54C /* GuessNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
